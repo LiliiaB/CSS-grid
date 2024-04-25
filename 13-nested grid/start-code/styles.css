@@ -4,4 +4,14 @@
 
 .container {
   display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.grid-item {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
 }
